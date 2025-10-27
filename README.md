@@ -25,10 +25,8 @@ Ce dossier est la transition entre mes fondations ML et mes architectures RLHF.
 ## Structure de chaque projet
 
 - `train.py` : script principal
-- `model.py` : définition du réseau (optionnel)
 - `README.md` : explication chirurgicale
 - `requirements.txt` : dépendances
-- `plots/` : visualisations sauvegardées (optionnel)
 
 ---
 
