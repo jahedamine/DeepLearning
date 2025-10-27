@@ -1,0 +1,9 @@
+## `requirements.txt`
+
+```txt
+tensorflow
+numpy
+matplotlib
+seaborn
+scikit-learn
+opencv-python

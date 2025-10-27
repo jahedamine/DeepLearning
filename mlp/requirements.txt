@@ -1,0 +1,7 @@
+## `requirements.txt`
+
+```txt
+numpy
+matplotlib
+scikit-learn
+tensorflow
