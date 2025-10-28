@@ -1,6 +1,6 @@
 # Deep Learning — Architectures chirurgicales et interprétables
 
-Ce dossier regroupe mes implémentations stratégiques des architectures fondamentales du deep learning. Chaque projet est conçu pour être reproductible, interprétable, et aligné avec ma posture d’architecte GenRL.
+Ce dossier regroupe mes implémentations stratégiques des architectures fondamentales du deep learning. Chaque projet est conçu pour être reproductible, interprétable, et aligné avec ma posture de developpeur GenRL.
 
 ---
 
