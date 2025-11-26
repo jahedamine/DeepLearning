@@ -1,14 +1,26 @@
 # Deep Learning — Architectures chirurgicales et interprétables
 
-Ce dossier regroupe mes implémentations stratégiques des architectures fondamentales du deep learning. Chaque projet est conçu pour être reproductible, interprétable, et aligné avec ma posture de developpeur GenRL.
+Ce dossier regroupe mes implémentations stratégiques des architectures fondamentales du Deep Learning.
+Chaque modèle est construit, entraîné et interprété avec rigueur, en gardant une vision d’ingénieur orientée :
+  modularité,
+  explainability,
+  scalabilité,
+  préparation à l’industrialisation.  
+C’est l’étape clé entre mes algorithmes ML classiques et mes travaux avancés en RL, RLHF, DPO, Agents GenAI et Alignement.
 
 ---
 
 ## Vision
 
-Je ne me contente pas d’utiliser des modèles — je les construis, les régularise, les interprète.  
-Chaque réseau ici est une brique neuronale posée avec intention, rigueur et clarté.  
-Ce dossier est la transition entre mes fondations ML et mes architectures RLHF.
+Je ne me limite pas à entraîner des modèles.
+Je développe des architectures maîtrisées de bout en bout, avec un focus sur :
+  la régularisation,
+  les choix d’optimisation,
+  l’interprétation des features apprises,
+  la reproductibilité,
+  et la performance réelle.
+Mon objectif est simple :
+  créer des modèles qui apprennent, qui généralisent, et qui peuvent être déployés.
 
 ---
 
@@ -21,18 +33,53 @@ Ce dossier est la transition entre mes fondations ML et mes architectures RLHF.
 | MobileNetV2           | CIFAR-10 | Transfer learning + fine-tuning + Grad-CAM | Grad-CAM + activations |
 
 ---
+## Pourquoi ces architectures ?
 
-## Structure de chaque projet
-
-- `train.py` : script principal
-- `README.md` : explication chirurgicale
-- `requirements.txt` : dépendances
+ MLP : compréhension des réseaux de base + surapprentissage + tuning
+ CNN : fondamentaux vision + convolution + pooling + régularisation
+ MobileNetV2 : modèle léger → production ready et idéal pour mobile/edge AI
+ Grad-CAM : interprétation → critère essentiel pour IA fiable et alignée
+ Fine-tuning : compétence clé pour le métier ML / GenAI Engineer
 
 ---
+## Structure de chaque projet
 
+DeepLearning/
+│── mlp/
+│   ├── train.py
+│   ├── README.md
+│   ├── requirements.txt
+│
+│── cnn/
+│   ├── train.py
+│   ├── README.md
+│   ├── requirements.txt
+│
+│── mobilenet/
+    ├── train.py
+    ├── README.md
+    ├── requirements.txt
+    
+---
+## Applications industrielles
+
+Ces architectures sont utilisées dans :
+  classification d’images (médical, retail, sécurité)
+  détection d’anomalies visuelles
+  optimisation des modèles pour mobile (edge AI)
+  prétraitement visuel avant RL
+  extraction de features pour agents intelligents
+
+---
 ## Exécution
 
 ```bash
 cd DeepLearning/mlp/
 pip install -r requirements.txt
 python train.py
+---
+## Auteur
+
+Made by Amine Jahed
+GenAI & ML Engineer — Agents modulaires, Alignment, RL/RLHF.
+Vision : construire des modèles compréhensibles, efficaces et prêts pour la production, du prototype jusqu’à l’IA alignée.
